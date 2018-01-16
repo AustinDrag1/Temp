@@ -1,0 +1,26 @@
+body
+{
+	margin:0;
+	background-color: powderblue;
+}
+
+.menu
+{
+	height: 80px;
+	background-color: blue;
+	color: black;
+}
+
+.menu-left
+{
+	font-size: 200%;
+	color: black;
+	text-decoration: none;
+}
+
+.menu-right
+{
+	text-align: right;
+	color: black;
+	text-decoration: none;
+}
