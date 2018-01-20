@@ -1,7 +1,13 @@
+<!--
+	Check how privileges work.
+	Remove if allowing 'Manage Account' link to appear on LoginHome if an Admin.
+-->
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<!--<link rel="stylesheet" href="NatLangStyle.css">-->
+		<title>Home</title>
 	</head>
 	
 	<body>
@@ -14,9 +20,27 @@
 		<div class="menu-shadow"></div>
 		<hr>
 		
-		<div><a href="Submit.html">Submit</a></div>
-		<div><a href="AlterDatabase.html">Alter Database</a></div>
-		<div><a href="ManageAccounts.html">Manage Accounts</a></div>
-		
+		<div>
+			<button type="button" onclick="location.href='Submit.html'">
+				Submit
+			</button>
+		</div>
+		<div>
+			<button type="button" onclick="location.href='AlterDatabase.html'">
+				Alter Database
+			</button>
+		</div>
+		<div>
+			<button type="button" onclick="location.href='ManageAccounts.html'">
+				Manage Accounts
+			</button>
+		</div>
 	</body>
 </html>
+
+
+
+
+
+
+

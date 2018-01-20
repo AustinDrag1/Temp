@@ -2,6 +2,22 @@
 <html>
 	<head>
 		<!--<link rel="stylesheet" href="NatLangStyle.css">-->
+		<title>Alter Database</title>
+		<style>
+			table, td, th
+			{
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			
+			th
+			{
+				padding: 3px;
+				width: 120px;
+				text-align: left;
+			}
+			
+		</style>
 	</head>
 	
 	<body>
@@ -14,5 +30,75 @@
 		<div class="menu-shadow"></div>
 		<hr>
 		
+		<div>
+			<h1>Alter Database</h1>
+		</div>
+		
+		<table>
+			<tr bgcolor="#dddddd">
+				<th>Word</th>
+				<th>Rating</th>
+				<th>Status</th>
+				<th>Date Created</th>
+				<th>Date Added</th>
+			</tr>
+			<tr>
+				<td>&nbsp</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>&nbsp</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<div>
+			<h3>Add New Word</h3>
+			<input type="text" placeholder="New Word..."></input>
+			<div>
+				Rating: 
+				<select>
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<button type="button">
+				Save
+			</button>
+		</div>
+		<div>
+			<h3>Change Existing Word</h3>
+			<input type="text" placeholder="Search..."></input>
+			<div>
+				Rating: 
+				<select>
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div>
+				<button type="button">
+					Save
+				</button>
+			</div>
+			<div>
+				<button type="button" onclick="alter(User will be removed in 10 days)">
+					Delete
+				</button>
+			</div>
+		</div>
 	</body>
 </html>

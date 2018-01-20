@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<!--<link rel="stylesheet" href="NatLangStyle.css">-->
+		<title>Submit</title>
 	</head>
 	
 	<body>
@@ -14,7 +15,25 @@
 		<div class="menu-shadow"></div>
 		<hr>
 		
-		<div><p>Details of Sumbission and Results</p></div>
-		<div><a href="Results.html">Submit</a></div>
+		<div style="max-width:600px; text-align: justify;">
+			<div>
+				<p>
+					After submitting a response, a rank between zero and five will be displayed. A high rank means there were more signs of depression detected. Additionally, a suggestion of how soon the patient should be seen by a professional will appear unless the response got a rank of zero.
+				</p>
+				<p>
+					If a response was found to show signs of severe depression, it will say so, instead of displaying a rank, and a suggestion for the patient to be seen immediately by a professional will appear.
+				</p>
+				<p>
+					Unless the response recieved a rank of zero, highlighting will be added to parts of the response that contributed to the evaluation
+				</p>
+			</div>
+			<div>
+				<textarea rows="20" cols="80" placeholder="Enter text here..."></textarea>
+			</div>
+			<button type="button" onclick="location.href='Results.html'">
+				Submit
+			</button>
+		</div>
+		
 	</body>
 </html>

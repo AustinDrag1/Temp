@@ -2,6 +2,22 @@
 <html>
 	<head>
 		<!--<link rel="stylesheet" href="NatLangStyle.css">-->
+		<title>Manage Accounts</title>
+		<style>
+			table, td, th
+			{
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			
+			th
+			{
+				padding: 3px;
+				width: 120px;
+				text-align: left;
+			}
+			
+		</style>
 	</head>
 	
 	<body>
@@ -14,5 +30,54 @@
 		<div class="menu-shadow"></div>
 		<hr>
 		
+		<div>
+			<h1>Manage Accounts</h1>
+		</div>
+		
+		<table>
+			<tr bgcolor="#dddddd">
+				<th>Word</th>
+				<th>Rating</th>
+				<th>Status</th>
+				<th>Date Created</th>
+				<th>Date Added</th>
+			</tr>
+			<tr>
+				<td>&nbsp</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>&nbsp</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		
+		<div>
+			<h3>Add, Alter, or Remove User</h3>
+			<input type="text" placeholder="Username"></input>
+			<div>
+				Permissions: 
+				<select>
+					<option value="0">User</option>
+					<option value="1">Administrator</option>
+				</select>
+			</div>
+			<div>
+				<button type="button">
+					Save
+				</button>
+			</div>
+			<div>
+				<button type="button" onclick="alter(User will be removed in 10 days)">
+					Delete
+				</button>
+			</div>
+		</div>
 	</body>
 </html>
